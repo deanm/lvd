@@ -1,0 +1,8 @@
+Turn your desktop to folder list view.  This is convenient for the unorganized
+who like having a thousand files on their desktop.
+
+Build using the MSVC compiler:
+  cl listview.c user32.lib
+
+You'll probably want to add this to startup, for example the registry key:
+  HKLM/Software/Microsoft/Windows/CurrentVersion/Run
